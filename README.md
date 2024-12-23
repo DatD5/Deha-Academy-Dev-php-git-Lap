@@ -62,8 +62,10 @@ git push origin feature/logout
 ![Screenshot 2024-12-23 182414](https://github.com/user-attachments/assets/eb268d9d-b2ef-4ecd-b0c8-ae359c924514)
 
 4. Merge các nhánh feature trên server Github
+   ![Screenshot 2024-12-23 185239](https://github.com/user-attachments/assets/8541c14f-60fa-4aa8-bad9-b44f91d45f3a)
 
-5. Tái hiện trường hợp conflict
+
+6. Tái hiện trường hợp conflict
 Trong khi merge feature/logout thì gặp CONFLICT
 Đã sửa bằng cách chấp nhận 'Accept Both Changes'
 
@@ -94,7 +96,6 @@ git checkout main
 git merge hotfix/fix-login-bug
 
 git push
-
 
 
 git checkout develop
